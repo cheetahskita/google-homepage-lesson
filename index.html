@@ -1,17 +1,35 @@
 <!DOCTYPE html>
-
-<body>
-    <div style="padding:20px;">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" style="text-align: -webkit-center;">
-    </div>
-    <div style="padding: 20px;">
-        <form action="/google-it">
-            <input type="text" placeholder="Search">
-            <br>
-            <button type="submit">Google Search</button>
-            <button type="submit">I'm Feeling Lucky</button>
-        </form>
-    </div>
-
-</body>
-
+<html>
+    <head>
+        <!--standard header formatting-->
+    </head>    
+    <body style="font-family: arial, sans-serif;">
+        <div id="top-bar">
+        <!--about, store, gmail, images, apps, login-->
+        <ul style="list-style-type:none;display:block;
+        background-color:gainsboro;margin:0;padding:0;">
+            <li style="float:left;padding:8px;">Home</li>
+            <li style="float:left;padding:8px;">Store</li>
+            <li style="float:right;padding:8px"><button>Login</button></li>
+            <li style="float:right;padding:8px;">Gsuit</li>
+            <li style="float:right;padding:8px;">Images</li>
+            <li style="float:right;padding:8px;">Gmail</li>
+        </ul>
+        </div>
+        <div id="image" style="padding:20px;">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+            style="display:block;margin-left:auto;margin-right: auto;">
+        </div>
+        <div id="search" style="padding: 20px;">
+            <form action="/google-it">
+                <input type="text" placeholder="Search">
+                <br>
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+            </form>
+        </div>
+        <div id="foot-bar">
+        <!--advertising, business, how search works, privacy, terms, settings-->
+        </div>
+    </body>
+</html>
